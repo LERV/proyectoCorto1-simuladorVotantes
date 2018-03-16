@@ -1,0 +1,2 @@
+# proyectoCorto1-simuladorVotantes
+Inteligencia Artificial
