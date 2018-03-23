@@ -3,6 +3,7 @@ import random
 
 csvURL = 'tec/ic/ia/pc1/datos.csv'
 poblacion = []
+
 def generar_muestra_pais(n):
     numeros = []
     resultado = []
@@ -31,12 +32,12 @@ def generar_muestra_provincia(n,nombre_provincia):
 			i+=1
 	return resultado
 
-	
-
+def inc(n):
+	n = n +1
+	return n
 
 def generar_random(max):
     return int(random.random() * max)
-
 
 def generar_poblacion():
     with open(csvURL) as csvarchivo:

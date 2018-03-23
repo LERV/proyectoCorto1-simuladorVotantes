@@ -1,0 +1,13 @@
+Indicadores
+
+*Educativas.
+	-10-24
+		Se eliminó porque tomaba en en cuenta < 18
+	-Escolaridad promedio
+		Preferimos eliminar las edad en particular ya que no tiene mucha diferencias.
+	-% de asistencia a la educacion regular
+		Quitamos todas las que son menores de edad porque no nos interesan, y calculamos el promedio de las que si cumple.
+*Economicas
+	-Tasa de participacion por hombre y mujer, ya que nos nos funciona el promedio.
+
+	
