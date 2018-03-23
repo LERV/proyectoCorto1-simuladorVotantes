@@ -32,10 +32,6 @@ def generar_muestra_provincia(n,nombre_provincia):
 			i+=1
 	return resultado
 
-def inc(n):
-	n = n +1
-	return n
-
 def generar_random(max):
     return int(random.random() * max)
 
