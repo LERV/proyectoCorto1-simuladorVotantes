@@ -1,7 +1,7 @@
 import csv, operator
 import random
 
-csvURL = 'tec/ic/ia/pc1/datos.csv'
+csvURL = 'tec/ic/ia/pc1/Datos.csv'
 poblacion = []
 
 def generar_muestra_pais(n):
