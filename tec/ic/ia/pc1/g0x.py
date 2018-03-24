@@ -1,11 +1,10 @@
 import csv, operator
 import random
 
-<<<<<<< HEAD
-csvURL = 'datos.csv'
-=======
-csvURL = 'tec/ic/ia/pc1/Datos.csv'
->>>>>>> e939dcc67681724fc3effd3bc506f8b1050dc6d9
+
+csvURL = 'Datos.csv'
+#csvURL = 'tec/ic/ia/pc1/Datos.csv'
+
 poblacion = []
 
 def generar_muestra_pais(n):
@@ -115,6 +114,7 @@ def generar_poblacion():
                 else:
                     individuo.append("Hogar sin jefatura compartida")
                 poblacion.append(individuo)
+    return 0
 
 def generar_csv(lista):
     myFile = open('grafivos.csv', 'w')
