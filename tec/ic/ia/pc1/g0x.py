@@ -39,7 +39,7 @@ def generar_random(max):
     return int(random.random() * max)
 
 def generar_poblacion():
-    with open(csvURL) as csvarchivo:
+    with open(csvURL) as csvarchivo:  ##open(csvURL,encoding="utf8")-- Es para correr en windows
         entrada = csv.reader(csvarchivo)
         for reg in entrada:
             for x in range (int(reg[1])):
