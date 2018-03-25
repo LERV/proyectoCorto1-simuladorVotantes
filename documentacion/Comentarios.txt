@@ -10,4 +10,12 @@ Indicadores
 *Economicas
 	-Tasa de participacion por hombre y mujer, ya que nos nos funciona el promedio.
 
+
+--------------------------
+Para hacer los analisis con Excel en windows
+1. Generar la muestra y generar CSV
+2. Abrir CSV como txt, Reemplazar "," por ";" para que excel las detecte.
+3. Abrir CSV separado por ";"
+4. Para generar los analisis se hace con tablas dinamicas, para usar estas se debe poner encabezados en cada columna.
+5. 
 	
