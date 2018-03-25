@@ -2,8 +2,7 @@ import csv, operator
 import random
 
 
-csvURL = 'Datos.csv'
-#csvURL = 'tec/ic/ia/pc1/Datos.csv'
+csvURL = 'tec/ic/ia/pc1/Datos.csv'
 
 poblacion = []
 
@@ -123,4 +122,4 @@ def generar_csv(lista):
         writer.writerows(lista)
 		
 generar_poblacion()
-generar_csv(generar_muestra_pais(50))		   
+#generar_csv(generar_muestra_pais(50))		   
