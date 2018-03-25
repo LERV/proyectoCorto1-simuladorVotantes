@@ -117,10 +117,10 @@ def generar_poblacion():
     return 0
 
 def generar_csv(lista):
-    myFile = open('grafivos.csv', 'w')
+    myFile = open('graficos.csv', 'w')
     with myFile:
         writer = csv.writer(myFile)
         writer.writerows(lista)
 		
 generar_poblacion()
-generar_csv(generar_muestra_pais(50))		   
+generar_csv(generar_muestra_provincia(3000, "HEREDIA"))		   

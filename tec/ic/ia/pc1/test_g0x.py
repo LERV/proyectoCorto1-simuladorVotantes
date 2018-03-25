@@ -3,6 +3,7 @@ from g0x import *
 
 def test_generar_poblacion():
 	assert generar_poblacion() == 0
+	
 def test_generar_muestra_pais():
 	assert len(generar_muestra_pais(5)) > 2
 
