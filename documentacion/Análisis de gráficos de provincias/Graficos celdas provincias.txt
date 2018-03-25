@@ -1,0 +1,12 @@
+graficos_Heredia!$A$1:$V$3001
+graficos_Puntarenas!$A$1:$V$3001
+graficos_LImon!$A$1:$V$3001
+
+graficos_Heredia2!$A$1:$V$3001
+graficos_Puntarenas2!$A$1:$V$3001
+graficos_Limon2!$A$1:$V$3001
+
+
+graficos_Heredia3!$A$1:$V$3001
+graficos_Puntarenas3!$A$1:$V$3001
+graficos_Limon3!$A$1:$V$3001
