@@ -1,8 +1,11 @@
 import csv  # Para abrir el archivo csv y cargar los datos
 import random  # Para generar numeros aleatorios
+import os  # Para cargar el archivo de datos desde la ruta de instalacion
 
+   
 # Variables globales
-csvURL = 'DatosTSE.csv'  # Direccion donde se encuentra el archivo csv a leer
+PARENT_DIR = os.path.dirname(os.path.dirname(__file__))
+csvURL = os.path.join(PARENT_DIR, 'g09', 'DatosTSE.csv')  # Direccion donde se encuentra el archivo csv a leer
 poblacion = []  # Lista donde se guardan todos los individuos creados
 
 

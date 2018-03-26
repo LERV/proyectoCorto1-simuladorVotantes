@@ -6,5 +6,8 @@ setup(name='tec.ic.ia.pc1.g09',
       url='https://github.com/LERV/proyectoCorto1-simuladorVotantes',
       author='David Gómez & Brayan Fajardo & Edward Rodriguez',
       packages=['tec.ic.ia.pc1.g09'],
+	package_data={
+        'tec.ic.ia.pc1.g09': ['*.csv']
+    },
       zip_safe=False)
 
