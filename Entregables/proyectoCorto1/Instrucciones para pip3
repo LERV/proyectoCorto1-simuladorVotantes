@@ -4,7 +4,7 @@
 En la carpeta donde se ubica este archivo actualmente, ejecutar "pip3 install ."
 
 
-2. Importar en python 
+2.Abrir python3 e  Importar en python 
 
 from tec.ic.ia.pc1.g09 import generar_muestra_pais, generar_muestra_provincia
 
