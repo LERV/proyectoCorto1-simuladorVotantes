@@ -2,7 +2,7 @@ import csv  # Para abrir el archivo csv y cargar los datos
 import random  # Para generar numeros aleatorios
 
 # Variables globales
-csvURL = 'tec/ic/ia/pc1/Datos.csv'  # Direccion donde se encuentra el archivo csv a leer
+csvURL = 'DatosTSE.csv'  # Direccion donde se encuentra el archivo csv a leer
 poblacion = []  # Lista donde se guardan todos los individuos creados
 
 
