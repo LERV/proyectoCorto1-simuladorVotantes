@@ -10,4 +10,6 @@ Integrantes
 -Luis Edward Rodríguez Varela
 ------------------------------------
 Descripción:
-Este proyecto...
+En este proyecto se pide crear un módulo de Python que contiene funciones para crear
+muestras de ejemplo, basados en los resultados electorales presidenciales de la primera ronda de las elecciones 2018
+en Costa Rica.
